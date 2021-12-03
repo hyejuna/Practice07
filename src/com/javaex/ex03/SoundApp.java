@@ -10,10 +10,9 @@ public class SoundApp {
     }
 
     public static void printSound( Soundable soundable ) {
-        if(soundable instanceof Cat) {
-        	System.out.println((Cat).sound());
+        
+        System.out.println(soundable.sound());
         	
-        }
     }
     
 }
